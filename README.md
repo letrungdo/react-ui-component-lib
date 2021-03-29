@@ -1,11 +1,16 @@
-# React components for Social Web UI.
+# React components for Web UI.
 
-### 🏠 [Homepage](https://gs2011.backlog.jp/git/AUKCT)
+## Features:
+- Storybook for UI development
+- Emotion for write CSS in JS
+- Jest Enzyme for testing
+- Babel for transpiling
+- Rollup for bundling
 
 ## Install
 
 ```sh
-yarn install
+npm install
 ```
 
 ## Usage
@@ -13,29 +18,24 @@ yarn install
 ### Auto fix rule
 
 ```sh
-yarn lint
+npm run lint
 ```
 
 ### Auto format code
 
 ```sh
-yarn format
+npm run format
 ```
 
 ### Run Storybook
 
 ```sh
-yarn sb
+npm run sb
 ```
 
 ### Build lib
 
 ```sh
-yarn build
+npm run build
 ```
 
-### Build lib & run Storybook
-
-```sh
-yarn dev
-```
