@@ -13,19 +13,17 @@ export default {
 
 export const NoText = () => {
     return (
-        <Label
-            className={text("className", "")}
-            fontFamily={radios("fontFamily", FontType, FontType.NotoSansJPRegular)}
-        />
+        <Label className={text("className", "")} fontFamily={radios("fontFamily", FontType, FontType.RobotoRegular)} />
     );
 };
 
 export const HasText = () => {
     return (
         <Label
-            text={text("text", "ラベルテキスト")}
-            className={text("className", "fs-15 lh-18 mr-10 ml-10")}
-            fontFamily={radios("fontFamily", FontType, FontType.NotoSansJPRegular)}
-        />
+            className={text("className", "fs-15 lh-18")}
+            fontFamily={radios("fontFamily", FontType, FontType.RobotoRegular)}
+        >
+            {text("text", "ラベルテキスト")}
+        </Label>
     );
 };

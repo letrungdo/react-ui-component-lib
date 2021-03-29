@@ -9,7 +9,6 @@ enum FontType {
 
 interface Props {
     className?: string;
-    text?: string | null;
     fontFamily?: FontType;
     onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
     defaultValue?: string;
@@ -17,11 +16,11 @@ interface Props {
 
 class LabelComponent extends React.PureComponent<Props> {
     render() {
-        const { className, text, children, onClick, defaultValue } = this.props;
+        const { className, children, onClick, defaultValue } = this.props;
 
         return (
             <span className={`label ${className}`} onClick={onClick}>
-                {text ? text : children ? children : defaultValue}
+                {children ? children : defaultValue}
             </span>
         );
     }
