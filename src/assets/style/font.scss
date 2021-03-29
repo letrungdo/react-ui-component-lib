@@ -1,17 +1,17 @@
 @font-face {
     font-family: "RobotoRegular";
-    src: url("../fonts/Roboto-Regular.ttf");
+    src: local("Roboto-Regular"), url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "RobotoMedium";
-    src: url("../fonts/Roboto-Medium.ttf");
+    src: local("Roboto-Medium"), url("../fonts/Roboto-Medium.ttf") format("truetype");
 }
 @font-face {
     font-family: "RobotoBold";
-    src: url("../fonts/Roboto-Bold.ttf");
+    src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 html,
 body {
-    font-family: "RobotoRegular", "NotoSansJPRegular", Meiryo, sans-serif;
+    font-family: "RobotoRegular", Meiryo, sans-serif;
     font-size: 14px;
 }

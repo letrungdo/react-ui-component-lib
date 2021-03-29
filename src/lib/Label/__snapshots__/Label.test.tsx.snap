@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label No text 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  width: auto;
+  font-family: NotoSansJPRegular;
+}
+
+.emotion-0.inactive {
+  opacity: 0.5;
+}
+
+.emotion-0.text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+<span
+  className="label  emotion-0"
+>
+  -
+</span>
+`;

@@ -2,9 +2,6 @@ import styled from "@emotion/styled";
 import React from "react";
 
 enum FontType {
-    NotoSansJPRegular = "NotoSansJPRegular",
-    NotoSansJPMedium = "NotoSansJPMedium",
-    NotoSansJPBold = "NotoSansJPBold",
     RobotoRegular = "RobotoRegular",
     RobotoMedium = "RobotoMedium",
     RobotoBold = "RobotoBold",
@@ -13,7 +10,6 @@ enum FontType {
 interface Props {
     className?: string;
     text?: string | null;
-    children?: React.ReactNode;
     fontFamily?: FontType;
     onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
     defaultValue?: string;
@@ -49,7 +45,7 @@ const Label = styled(LabelComponent)`
 
 Label.defaultProps = {
     className: "",
-    fontFamily: FontType.NotoSansJPRegular,
+    fontFamily: FontType.RobotoRegular,
     defaultValue: "-",
 };
 

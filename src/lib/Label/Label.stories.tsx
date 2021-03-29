@@ -1,12 +1,12 @@
 import { radios, text } from "@storybook/addon-knobs";
 import React from "react";
-import { FontType, Label } from "../src/lib/Label";
+import { FontType, Label } from ".";
 
 export default {
     title: "Core/Label",
     parameters: {
         viewport: {
-            defaultViewport: "DoLT",
+            defaultViewport: "myViewport",
         },
     },
 };

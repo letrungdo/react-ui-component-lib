@@ -17,7 +17,7 @@ module.exports = {
     // Module file extensions for importing
     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
     // Setup Enzyme
-    snapshotSerializers: ["enzyme-to-json/serializer", "jest-emotion"],
+    snapshotSerializers: ["@emotion/jest/enzyme-serializer"],
     setupFilesAfterEnv: ["<rootDir>/setupEnzyme.ts"],
     // coverage
     coverageThreshold: {
