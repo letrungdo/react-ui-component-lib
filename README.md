@@ -10,9 +10,6 @@
   <a href="https://twitter.com/letrungdo" target="_blank">
     <img alt="Twitter: letrungdo" src="https://img.shields.io/twitter/follow/letrungdo.svg?style=social" />
   </a>
-  <a href="https://github.com/letrungdo/react-ui-component-lib/blob/master/LICENSE" target="_blank">
-    <img alt="License: UNLICENSED" src="https://img.shields.io/github/license/letrungdo/@letrungdo/web-ui" />
-  </a>
 </p>
 
 > React components for Web UI.
@@ -27,17 +24,13 @@
 
 ### ✨ [Demo](https://react-ui-component-lib.netlify.app/)
 ## Install
-
 ```sh
 npm install
 ```
-
 ## Run tests
-
 ```sh
 npm run test
 ```
-
 ### Auto fix rule
  ```sh
 npm run lint
@@ -54,7 +47,6 @@ npm run sb
 ```sh
 npm run build
 ```
-
 ## Author
 
 👤 **Le Trung Do**
