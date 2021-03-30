@@ -19,9 +19,9 @@ class LabelComponent extends React.PureComponent<Props> {
         const { className, children, onClick, defaultValue } = this.props;
 
         return (
-            <span className={`label ${className}`} onClick={onClick}>
+            <p className={`label ${className}`} onClick={onClick}>
                 {children ? children : defaultValue}
-            </span>
+            </p>
         );
     }
 }

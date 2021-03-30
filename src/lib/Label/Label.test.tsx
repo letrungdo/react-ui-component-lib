@@ -5,10 +5,13 @@ import { Label } from ".";
 describe("Label", () => {
     it("No text", () => {
         const elm = mount(<Label />);
-        const label = elm.find("span");
-        expect(label.text()).toEqual("-");
-        expect(label.prop("className")).toContain("label");
 
-        expect(label).toMatchSnapshot();
+        expect(elm).toMatchSnapshot();
+    });
+
+    it("Has text", () => {
+        const elm = mount(<Label>Hello</Label>);
+
+        expect(elm).toMatchSnapshot();
     });
 });

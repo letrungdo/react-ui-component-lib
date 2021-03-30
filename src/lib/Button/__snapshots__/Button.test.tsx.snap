@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Disabled 1`] = `
+<Styled(button)
+  className="btn "
+  disabled={true}
+  fontFamily="RobotoRegular"
+  type="button"
+>
+  Disabled
+</Styled(button)>
+`;
+
+exports[`Button Has text 1`] = `
+.emotion-0 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 99;
+  font-family: RobotoRegular;
+}
+
+.emotion-0:active {
+  opacity: 0.7;
+}
+
+.emotion-0:disabled {
+  cursor: unset;
+}
+
+.emotion-0:disabled:active {
+  opacity: 1;
+}
+
+<Button
+  fontFamily="RobotoRegular"
+>
+  <Styled(button)
+    className="btn "
+    fontFamily="RobotoRegular"
+    type="button"
+  >
+    <button
+      className="btn  emotion-0"
+      fontFamily="RobotoRegular"
+      type="button"
+    >
+      this is text
+    </button>
+  </Styled(button)>
+</Button>
+`;
+
+exports[`Button On Click 1`] = `
+<Styled(button)
+  className="btn "
+  fontFamily="RobotoRegular"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  type="button"
+>
+  Click me
+</Styled(button)>
+`;
