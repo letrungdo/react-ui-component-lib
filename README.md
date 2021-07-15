@@ -51,7 +51,7 @@ npm run build
 
 👤 **Le Trung Do**
 
-* Website: https://cv.xn--t-lia.vn/
+* Website: https://xn--t-lia.vn
 * Twitter: [@letrungdo](https://twitter.com/letrungdo)
 * Github: [@letrungdo](https://github.com/letrungdo)
 * LinkedIn: [@letrungdo](https://linkedin.com/in/letrungdo)
