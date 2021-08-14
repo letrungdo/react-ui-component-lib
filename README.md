@@ -14,7 +14,7 @@
 
 > React components for Web UI.
 
-### 🏠 [Homepage](https://tđ.vn/how-to-build-component-library-with-react-storybook-jest-enzyme-rollup-typescript)
+### 🏠 [Homepage](https://xn--t-lia.vn/how-to-build-component-library-with-react-typescript-rollup)
 ## Features:
 - Storybook for UI development
 - Emotion for write CSS in JS
