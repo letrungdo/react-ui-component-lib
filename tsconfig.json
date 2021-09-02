@@ -7,10 +7,7 @@
         "outDir": "dist",
         "strict": true,
         "moduleResolution": "node",
-        "rootDirs": [
-            "src",
-            "stories"
-        ],
+        "rootDirs": ["src", "stories"],
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true

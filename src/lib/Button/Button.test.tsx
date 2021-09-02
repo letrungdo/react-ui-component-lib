@@ -17,7 +17,7 @@ describe("Button", () => {
     });
 
     test("On Click", () => {
-        const elm = shallow(<Button onClick={ev} >Click me</Button>);
+        const elm = shallow(<Button onClick={ev}>Click me</Button>);
 
         elm.simulate("click");
         expect(ev.mock.calls.length).toBe(1);
@@ -26,7 +26,7 @@ describe("Button", () => {
     });
 
     test("Disabled", () => {
-        const elm = shallow(<Button disabled={true} >Disabled</Button>);
+        const elm = shallow(<Button disabled={true}>Disabled</Button>);
 
         expect(elm.is("[disabled]")).toBe(true);
 

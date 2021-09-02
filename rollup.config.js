@@ -1,4 +1,3 @@
-import babel from "@rollup/plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import image from "@rollup/plugin-image";
 import resolve from "@rollup/plugin-node-resolve";
@@ -12,7 +11,7 @@ export default [
         output: [
             {
                 dir: "dist",
-                format: "cjs",
+                format: "esm",
                 exports: "auto",
             },
         ],
@@ -23,17 +22,9 @@ export default [
                 insert: true,
             }),
             image(),
-            babel({
-                babelHelpers: "bundled",
-                presets: ["@babel/preset-env", "@babel/preset-react"],
-                extensions: [".js"],
-                exclude: ["node_modules/**"],
-            }),
             resolve(),
             commonjs(),
         ],
-        external: [
-            ...Object.keys(pkg.peerDependencies || {}),
-        ],
+        external: [...Object.keys(pkg.peerDependencies || {})],
     },
 ];
